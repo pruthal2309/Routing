@@ -2,10 +2,7 @@ import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
-
-function Contact(){
-  return <h1>This is Contact Page</h1>
-}
+import Contact from './components/Contact'
 
 
 const App = () => {
