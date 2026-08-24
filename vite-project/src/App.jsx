@@ -1,9 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
-
-function Home(){
-  return <h1 className="flex gap-4 px-40 py-10">This is Home Page</h1>
-}
+import Home from './components/Home'
 
 
 function About(){
@@ -29,7 +26,6 @@ const App = () => {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contactUs" element={<Contact />}></Route>
-          
         </Routes>
     </div>
     </BrowserRouter>
